@@ -137,7 +137,7 @@ $perusahaan = query("SELECT * FROM perusahaan WHERE id = $id")[0];
                 <div class="container-fluid">
 
                     <!-- Content Row -->
-                    <div class="card">
+                    <div class="card shadow">
                         <div class="row ml-2 mt-4">
                             <div class="col-md-6">
                                 <img src="<?= $perusahaan['foto'] ?>" width="500px" alt="">

@@ -136,7 +136,7 @@ $perusahaan = query("SELECT * FROM perusahaan ORDER BY id DESC");
                 <div class="container-fluid">
 
                     <!-- Content Row -->
-                    <div class="card">
+                    <div class="card shadow">
                         <h3 class=" text-dark mb-5 mt-5 text-center">List perusahaan </h3>
                         <div class="row d-flex ml-2 mr-2">
                             <?php foreach ($perusahaan as $key => $value) { ?>
